@@ -56,15 +56,22 @@ Now, here you can perform the order activity
 
 ## Order Service 
 For this service, I used postman to update Product information and for placing order.
+
 API Routes are:
-    Order placement:
+
+Order placement:
+
 > http://127.0.0.1:8001/api/orders
         
 Sample Image:
+
 ![Screenshot from 2024-01-04 12-20-16](https://github.com/Tareq-Adnan/Laravel-Microservice-with-Docker-Rabbitmq-laravel-Queue-/assets/68398767/217c8067-5e04-4a64-9ab6-d79488a87c68)
 
 
-    Add Product Stock:
+Add Product Stock:
+
 > http://127.0.0.1:8000/api/products
+
 Sample Image:
+
 ![Screenshot from 2024-01-04 12-21-50](https://github.com/Tareq-Adnan/Laravel-Microservice-with-Docker-Rabbitmq-laravel-Queue-/assets/68398767/3b31878f-37a5-4cd6-997a-e03e3890ef5c)
