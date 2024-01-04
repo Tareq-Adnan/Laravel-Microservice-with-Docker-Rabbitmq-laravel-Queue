@@ -30,7 +30,7 @@ The RabbitMQ have been implemented using CloudAMQP. The details can be found in 
 
 5. Bash into your container:
 
-> docker-compose exec app bash
+> docker-compose exec <app-name> bash
 
 6. Install composer dependencies (this may also take a moment):
 
