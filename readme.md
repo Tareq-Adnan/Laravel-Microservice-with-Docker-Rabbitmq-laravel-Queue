@@ -6,11 +6,12 @@ The RabbitMQ have been implemented using CloudAMQP. The details can be found in 
 ### Setup Cloud Server
 1. To setup the cloud server go to CloudAMQP and create a free account (without Credit card info). You'll find creadentials there to connect your laravel app with the cloud.
    
-![image](https://imgbox.com/lyIjj4uY)
+![292833344-c62c3138-5074-4ed6-8ab6-c1ab2977ea28](https://github.com/Tareq-Adnan/Laravel-Microservice-with-Docker-Rabbitmq-laravel-Queue-/assets/68398767/7aad5094-7656-493f-91be-17ff37e202df)
+
 
 2. To install the project simply clone the repository and update the .env file with the proper cloud credentials.
    
-![image](https://imgbox.com/kW5K73cl)
+![292833582-4c8e6ffb-25c4-490a-862f-e2afb7c04f23](https://github.com/Tareq-Adnan/Laravel-Microservice-with-Docker-Rabbitmq-laravel-Queue-/assets/68398767/1cece916-68e1-4fe8-a410-db792fdd9c05)
 
 
 ### Docker Container Setup
@@ -48,8 +49,8 @@ On two different terminal.
 ### App view
 ## Product Service 
 Go to the link localhost:8000 or http://127.0.0.1:8000 you'll see a simple ui like the image below:
+![Screenshot from 2024-01-04 11-59-06](https://github.com/Tareq-Adnan/Laravel-Microservice-with-Docker-Rabbitmq-laravel-Queue-/assets/68398767/1ca0e919-71b4-40c3-a5f8-058bb5d34bb1)
 
-![image](https://imgbox.com/o7kQ4Kgr)
 
 Now, here you can perform the order activity
 
@@ -60,9 +61,10 @@ API Routes are:
 > http://127.0.0.1:8001/api/orders
         
 Sample Image:
-![image](https://imgbox.com/Dx9hxcdV)
+![Screenshot from 2024-01-04 12-20-16](https://github.com/Tareq-Adnan/Laravel-Microservice-with-Docker-Rabbitmq-laravel-Queue-/assets/68398767/217c8067-5e04-4a64-9ab6-d79488a87c68)
+
 
     Add Product Stock:
 > http://127.0.0.1:8000/api/products
 Sample Image:
-![image](https://imgbox.com/cK08sWev)
+![Screenshot from 2024-01-04 12-21-50](https://github.com/Tareq-Adnan/Laravel-Microservice-with-Docker-Rabbitmq-laravel-Queue-/assets/68398767/3b31878f-37a5-4cd6-997a-e03e3890ef5c)
