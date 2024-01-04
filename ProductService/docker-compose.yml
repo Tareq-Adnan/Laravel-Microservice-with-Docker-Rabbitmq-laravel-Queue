@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  product_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    depends_on:
+      - product_db
+    volumes:
+      - .:/app
+    networks:
+      - lahmi
+
+  product_db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./storage/dbdata:/var/lib/mysql
+    ports:
+      - 33067:3306
+    networks:
+      - lahmi
+
+networks:
+  lahmi:
+    external: true
